@@ -19,7 +19,11 @@ In this activity we will use a micro:bit to record sites of First Nations import
 To record your steps with the micro:bit and ensure that distances are approximately correct
 you will need to calibrate the micro:bit accelerometer to pick up your steps correctly.
 
-1. Load the [./step_logging.mpy]() file onto your micro:bit
+1. Load the [./step_logging.mpy]() file onto your micro:bit. 
+
+> [!TIP]
+> This can be easily done using https://python.microbit.org/ and connecting you micro:bit to your computer with the provided usb cable
+
 2. Disconnect the micro:bit from your computer, attach the battery, press `Button A` until a TICK :heavy_check_mark: is shown and then go for a walk around the building. Please ensure not to disturb other classes and do not run.
 3. Once you have returned press `Button B` and you should see a CROSS :heavy_multiplication_x: to indicate recording of your steps has stopped. 
 4. Leave your battery connected and connect the micro:bit to your computer. You should have a drive available to you from the micro:bit and a file called `MY_DATA.HTM`. Open the fill and look at the graph. Depending on where you attached the micro:bit you will see that either the *Y* or *Z* coordinates gives a signal of when you take a step. For me it is the *Y* as I had the micro:bit in my pocket and the number I will use is 750.
