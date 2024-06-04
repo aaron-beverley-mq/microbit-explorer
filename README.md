@@ -48,7 +48,3 @@ Remember that there is limited storage space, about 30k. If you include the abov
         - Describe any trends you notice
     - classify the photes between flora, fauna and location. 
         - Are there any trends you notice in the data? If so, what reasons can you provide for the trend or not.
-
-
-
-interesting locations when walking to use a microbit to track walking through a national park recording sites of indigenous relevance and to map and analyse the recorded data.
