@@ -1,0 +1,52 @@
+from microbit import *
+import log
+
+compass.calibrate()
+log.set_labels('steps', 'heading', 'poi')
+logging = False
+steps = 0
+
+def store_data(poi: bool=False):
+    try:
+        log.add({
+            'steps': steps,
+            'heading': compass.heading(),
+            'poi': poi
+        })
+    except OSError:
+        display.show(Image.CONFUSED)
+
+def point_north():
+    needle = ((15 - compass.heading()) // 30) % 12
+    display.show(Image.ALL_CLOCKS[needle])
+    
+@run_every(ms=500)
+def log_data():
+    if logging:
+        store_data()
+
+while True:
+    # Clear log
+    if button_a.is_pressed() and button_b.is_pressed():
+        logging = False
+        display.show(Image.SKULL)
+        log.delete()
+        log.set_labels('steps', 'heading', 'poi')   
+    # Toggle logging on/off
+    if button_a.get_presses() > 0:
+        if logging:
+            logging = False
+            display.show(Image.NO)
+        else:
+            logging = True
+            display.show(Image.YES)
+    # save point of interest
+    if button_b.get_presses() > 0:
+        store_data(True)
+        point_north()
+    # clear the screen
+    if accelerometer.was_gesture('shake'):
+        display.clear()
+    # record a step. This should be changed based on your callibration from step 1
+    elif accelerometer.get_y() > 750:
+        steps += 1
