@@ -1,11 +1,26 @@
 # microbit-explorer
 
+This is a blended exercise for stage 5, using a micro:bit that would be part of the Building Mechatronics and automated systems unit and combining it with the Analysing Data unit.
+
 ## Learning Intentions
--
+- Understand how technology can be used to record events
+- Build skills in recording and analysing data
+- Develop an understanding of First Nation Peoples and their ways of knowing and being
 
 ## Success Criteria
+- Produce a Story map that shows locations that were of cultural significance
+- Record data from the excursion
+- Produce analysis in Excel of the excusion that shows you can intepret data and represent it in a meaningful way
+- Extension: Modify the micro:bit code to record and analyse additional information
 
 ## Syllabus
+- explains how data is stored, transmitted and secured in digital systems and how information is communicated in a range of contexts CT5-DAT-01
+- communicates ideas, processes and solutions using appropriate media CT5-COM-01
+- acquires, represents, analyses and visualises simple and structured data CT5-DAT-02
+- manages, documents and explains individual and collaborative work practices CT5-COL-01
+- understands how innovation, enterprise and automation have inspired the evolution of computing technology CT5-EVL-01
+
+### Cross-Curriculum Priorities
 
 ## Overview
 In this activity we will use a micro:bit to record sites of First Nations importance as we walk along the [Aboriginal Heritage Walk](https://www.nationalparks.nsw.gov.au/things-to-do/walking-tracks/aboriginal-heritage-walk). The purpose is to understand how to log and manipulate data and also build a better understanding of the First Nations people who lived in Darug country for around 60,000 years before colonisation. 
