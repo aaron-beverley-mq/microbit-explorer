@@ -26,7 +26,7 @@ The excursion is to support and develop a better understanding of Aboriginal and
 ## Overview
 In this activity we will use a micro:bit to record sites of First Nations importance as we walk along the [Aboriginal Heritage Walk](https://www.nationalparks.nsw.gov.au/things-to-do/walking-tracks/aboriginal-heritage-walk). The purpose is to understand how to log and manipulate data and also build a better understanding of the First Nations people who lived in Darug country for around 60,000 years before colonisation. 
 
-## Apperatus
+## Apparatus
 - Micro:bit v2
 - Software from this repository
 - Booklet with images of possible flora and sites of First Nation significance
