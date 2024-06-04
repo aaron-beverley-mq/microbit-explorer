@@ -38,7 +38,7 @@ you will need to calibrate the micro:bit accelerometer to pick up your steps cor
 1. Load the [./step_logging.mpy]() file onto your micro:bit. 
 
 > [!TIP]
-> This can be easily done using https://python.microbit.org/ and connecting you micro:bit to your computer with the provided usb cable
+> This can be easily done using https://python.microbit.org/ and connecting your micro:bit to your computer with the provided usb cable
 
 2. Disconnect the micro:bit from your computer, attach the battery, press `Button A` until a TICK :heavy_check_mark: is shown and then go for a walk around the building. Please ensure not to disturb other classes and do not run.
 3. Once you have returned press `Button B` and you should see a CROSS :heavy_multiplication_x: to indicate recording of your steps has stopped. 
