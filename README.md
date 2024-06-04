@@ -21,6 +21,7 @@ This is a blended exercise for stage 5, using a micro:bit that would be part of 
 - understands how innovation, enterprise and automation have inspired the evolution of computing technology CT5-EVL-01
 
 ### Cross-Curriculum Priorities
+The excursion is to support and develop a better understanding of Aboriginal and Torres Strait Islander Histories and Cultures, how they lived, the types of flora and fauna they might have used in Darug Country. This is done though leveraging technology to record locations and to remain respectful of the culture.
 
 ## Overview
 In this activity we will use a micro:bit to record sites of First Nations importance as we walk along the [Aboriginal Heritage Walk](https://www.nationalparks.nsw.gov.au/things-to-do/walking-tracks/aboriginal-heritage-walk). The purpose is to understand how to log and manipulate data and also build a better understanding of the First Nations people who lived in Darug country for around 60,000 years before colonisation. 
